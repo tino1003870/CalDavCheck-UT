@@ -1,0 +1,15 @@
+{
+    "name": "caldavcheck.caldavcheck.com.tino",
+    "description": "checks working caldav syncronization",
+    "architecture": "$ENV{ARCH}",
+    "title": "CalDavCheck",
+    "hooks": {
+        "caldavcheck": {
+            "apparmor": "caldavcheck.apparmor",
+            "desktop":  "caldavcheck.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Tino Schurzmann <schurzmann@gmail.com>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}
